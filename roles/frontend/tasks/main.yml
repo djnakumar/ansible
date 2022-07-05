@@ -6,7 +6,7 @@
 - name: Download and Extract Frontend Schema
   include_role:
     name: common
-    tasks_from: download-from-github
+    tasks_from: download
 
 - name: Cleanup Old HTML Content
   ansible.builtin.file:
