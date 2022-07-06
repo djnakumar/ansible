@@ -1,3 +1,5 @@
-- name: Print Catalogue
-  debug:
-    msg: catalogue
+- name: NodeJS App Setup
+  include_role:
+    name: common
+    tasks_from: nodejs
+
